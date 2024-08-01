@@ -3,7 +3,7 @@ import './Home.css'
 import Testinomials from "../../components/Testinomials";
 const Home = () => {
   return (
-      <div className="flex flex-col items-center h-[100dvh] w-[100%] bg-gradient-to-b from-[#7693ef] to-[#7dfccf] via-[#78b1e6]">
+      <div className="flex flex-col items-center h-[100dvh] w-[100%]">
         <div className="triangle"></div>
         <div className="z-10 mt-28 flex flex-col items-center md:w-[100%] px-3 text-center">
           <h1 className="uppercase font-Bebas-Neue text-5xl md:w-[100%]  lg:text-7xl ">ARE YOU STRUGGLING TO GET SHORTLISTED?</h1>

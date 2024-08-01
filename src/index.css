@@ -7,3 +7,11 @@
   font-weight: normal;
   font-style: normal;
 }
+body{
+  background: linear-gradient(
+    to bottom,
+    #7693ef,    /* Starting color */
+    #78b1e6,    /* Intermediate color */
+    #7dfccf     /* Ending color */
+  );
+}
