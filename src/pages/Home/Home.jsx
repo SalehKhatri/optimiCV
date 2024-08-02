@@ -19,7 +19,7 @@ const Home = () => {
         </motion.h1>
 
         <motion.p
-          className="font-LemonMilk font-medium mt-4 text-[10px] px-2 leading-snug md:leading-none md:text-lg md:mt-12"
+          className="font-LemonMilk font-semibold mt-4 text-[10px] px-2 leading-snug md:leading-none md:text-lg md:mt-12"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
@@ -28,7 +28,7 @@ const Home = () => {
         </motion.p>
 
         <motion.p
-          className="font-LemonMilk font-medium mt-3 text-[10px] px-2 leading-snug md:text-lg md:mt-12"
+          className="font-LemonMilk font-semibold mt-3 text-[10px] px-2 leading-snug md:text-lg md:mt-12"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.6 }}
