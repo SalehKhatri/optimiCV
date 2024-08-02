@@ -63,9 +63,9 @@ const Testinomials = () => {
       <AnimatePresence mode="wait">
         <motion.div
           key={currentIndex}
-          initial={{ opacity: 0, x: direction * 50 }}
+          initial={{ opacity: 0, x: direction * 40 }}
           animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: -direction * 50 }}
+          exit={{ opacity: 0, x: -direction * 40 }}
           transition={{ duration: 0.3, ease: "easeOut" }}
           style={{
             borderTopLeftRadius: "25px 12px",
